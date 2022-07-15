@@ -1,0 +1,26 @@
+.container-fluid {
+
+    background-color: cyan;
+}
+
+.nav {
+
+    float: right;
+}
+
+.nav-item {
+
+    border-radius: 8px;
+
+}
+
+.nav-item:hover {
+
+    background-color: aquamarine;
+    
+}
+
+.dropdown {
+
+    margin-left: 30px;
+}

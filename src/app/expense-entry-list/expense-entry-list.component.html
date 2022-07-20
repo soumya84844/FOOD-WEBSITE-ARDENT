@@ -40,6 +40,7 @@
                             <th>Location</th>
                             <th>Spent On</th>
                             <th>Created On</th>
+                            <th>View</th>
 
                         </tr>
 
@@ -56,6 +57,7 @@
                             <td>{{entry.location}}</td>
                             <td>{{entry.spendOn | date : 'short'}}</td>
                             <td>{{entry.createdOn | date : 'short'}}</td>
+                            <td><a routerLink="../expense/detail/{{entry.id}}">View</a></td>
 
                         </tr>
 

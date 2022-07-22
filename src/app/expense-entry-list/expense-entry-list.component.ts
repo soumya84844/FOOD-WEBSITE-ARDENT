@@ -88,7 +88,7 @@ export class ExpenseEntryListComponent implements OnInit {
     this.debugService.info("Expense Entry List Component");
 
     this.title = 'Expense Entry List';
-    this.getExpenseEntryItems();
+    this.expenseEntries = this.getExpenseEntryItems();
   }
 
   getExpenseEntryItems() {

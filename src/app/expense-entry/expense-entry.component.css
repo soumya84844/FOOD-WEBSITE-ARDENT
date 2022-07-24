@@ -28,3 +28,13 @@
 
     text-align: left;
 }
+
+.card {
+
+    width: 160%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background: rgb(205,0,255);
+    background: linear-gradient(180deg, rgba(205,0,255,1) 0%, rgba(5,255,0,1) 50%, rgba(0,212,255,1) 100%);
+}

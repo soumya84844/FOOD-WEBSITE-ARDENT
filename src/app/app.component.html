@@ -52,6 +52,22 @@
 
             </li>
 
+            <li class="nav-item">
+
+                <div *ngIf="isUserLoggedIn; else isLogOut">
+
+                    <a href="#" class="nav-link" routerLink="/logout"><i class="fas fa-envelope"></i> LOGOUT</a>
+
+                </div>
+
+                <ng-template #isLogOut>
+
+                    <a href="#" class="nav-link" routerLink="/login"><i class="fas fa-envelope"></i> LOGIN</a>
+
+                </ng-template>
+
+            </li>
+
             <div class="nav-item dropdown">
 
                 <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
